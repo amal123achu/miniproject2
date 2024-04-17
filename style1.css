@@ -1,0 +1,61 @@
+
+
+h3{
+
+
+text-align:center;
+}
+.div3{ 
+    padding-left: 70;
+    padding-right: 70;
+font-size:25px;
+width: 250px;
+height: 260px;
+position: fixed;
+top: 25%;
+left: 40%;
+margin-top: 30px;
+margin-left: -100px;
+background-color: rgb(192, 240, 240);
+
+}
+header {
+    background-color: rgb(97, 161, 190);
+    height: 80;
+  }
+
+         
+
+            .bt1{
+                display: block;
+                border-radius: 0.4cm;
+                width: 20%;
+                height: 30px;
+                cursor:pointer;
+                background-color: rgb(235, 62, 10);
+                width:3cm;
+                
+            }
+            .div4{ 
+                padding-left: 70;
+                padding-right: 70;
+            font-size:25px;
+            width: 250px;
+            height: 340px;
+            position: fixed;
+            top: 25%;
+            left: 40%;
+            margin-top: 30px;
+            margin-left: -100px;
+            background-color: rgb(192, 240, 240);
+            
+            }
+            .pricio{
+                color: rgb(243, 77, 11);
+                font-size:130%;
+              }
+            .logo{
+                margin-left: 40%;
+            }
+           
+           

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Sidebar</title>
+  <link rel="stylesheet" href="searchstyle.css">
+</head>
+<body>
+    <header>
+    <div class="container">
+
+        <div class="logo">
+          <img src="Vector 1.png" alt="Logo" width="55" height="65">
+          <b class="pricio">PRICIO</b>
+        </div>
+        <div class="search-bar">
+          <input type="text" placeholder="Search for products,brands&more..." width="7">
+          <button><img src="search1.png" alt="Search"  width="35" height="35"></button>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="login.html"><img src="c:\Users\Admin\Desktop\mini project\person-icon-1671.png" width="45" height="45"> Login</a></li>
+            <li><a href="#"> <img src="c:\Users\Admin\Desktop\mini project\settings-icon-14955.png" width="45" height="45">More</a></li>
+          </ul>
+        </nav>
+      </div>
+  </header>
+
+  <div class="sidebar">
+    <h2>Filters</h2>
+    <div class="filter-section">
+        <h3>Price Range</h3>
+        <label for="min-price">Min:</label>
+        <input type="number" id="min-price" name="min-price" placeholder="Min" min="0"><br>
+        <label for="max-price">Max:</label>
+        <input type="number" id="max-price" name="max-price" placeholder="Max"><br>
+     
+    </div>
+    <div class="filter-section">
+      <h3>Category</h3>
+      <input type="checkbox" id="phones" name="phones">
+      <label for="phones">Phones</label><br>
+      <input type="checkbox" id="laptops" name="laptops">
+      <label for="laptops">Laptops</label><br>
+      <!-- Add more category options as needed -->
+    </div>
+    <div class="filter-section">
+      <h3>Brands</h3>
+      <input type="checkbox" id="brand1" name="brand1">
+      <label for="brand1">Brand 1</label><br>
+      <input type="checkbox" id="brand2" name="brand2">
+      <label for="brand2">Brand 2</label><br>
+      <!-- Add more brand options as needed -->
+    </div>
+  </div>
+</body>
+</html>
